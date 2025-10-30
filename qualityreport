@@ -1,0 +1,35 @@
+Quality Checkpoint Report Format
+1. Report Identification
+Project Name: The name of the project being reviewed.
+Checkpoint ID: A unique identifier for this review (e.g., QC-RRS-001).
+Checkpoint Phase/Name: The specific project phase being checked (e.g., SRS Review, Code Review, UAT Sign-off).
+Date of Check: When the quality check was performed.
+
+2. Executive Summary
+Meaning: A high-level overview of the quality status, major findings, and overall recommendation (Pass/Fail/Conditional Pass).
+
+3. Quality Criteria & Metrics
+Meaning: The specific standards, requirements, or metrics used to evaluate quality (e.g., "All critical test cases must pass," "Zero open P1 bugs," "Code coverage > 80%").
+
+4. Findings & Defects Summary
+Total Defects Found: The number of issues identified.
+Defects by Severity: Breakdown of defects (e.g., Critical, Major, Minor).
+Defects by Category: Classification of issues (e.g., Functional, UI/UX, Documentation, Performance).
+
+5. Detailed Findings
+Defect ID: A unique reference for each issue (e.g., Bug-101).
+Description: A clear explanation of the defect or observation.
+Severity/Priority: The impact of the issue (Critical, Major, Minor).
+Status: Current state (Open, In Progress, Resolved, Closed).
+
+6. Risk Assessment
+Meaning: Evaluation of the impact these findings have on project timeline, cost, or performance if not addressed.
+
+7. Conclusion & Recommendation
+Overall Quality Status: A definitive statement (e.g., Meets Standards, Does Not Meet Standards).
+Recommendation: The action to take based on the findings (e.g., Proceed to Next Phase, Do Not Proceed - Rework Required, Proceed with Conditions).
+
+8. Approvals
+Quality Auditor: Signature of the person who performed the check.
+Project Manager: Acknowledgment of the report.
+Action Owner: The person responsible for addressing the findings.
