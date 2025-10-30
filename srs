@@ -1,0 +1,31 @@
+Software Requirements Specification (SRS) Format
+1. Introduction
+1.1. Purpose: Why this SRS document is being written.
+1.2. Scope: The high-level goals and what the software will and will not do.
+1.3. Intended Audience: Who will read and use this document (e.g., developers, testers, project managers).
+1.4. Definitions, Acronyms, and Abbreviations: Explains technical terms so everyone understands them the same way.
+
+2. Overall Description
+2.1. Product Perspective: How the system fits with other software or hardware.
+2.2. Product Functions: A simple list of the main things the software will do.
+2.3. User Classes and Characteristics: Who will use the software and what they need.
+2.4. Operating Environment: Where the software will run (e.g., Windows, web browser, mobile).
+2.5. Design and Implementation Constraints: Any limits on how the software must be built (e.g., must use a specific database).
+
+3. System Features (Functional Requirements)
+3.1. [Feature 1 Name, e.g., User Login]
+Description: What this feature is for.
+Priority: How important this feature is (e.g., High, Medium, Low).
+Requirements: A detailed list of what the feature must do, often written as "The system shall...".
+3.2. [Feature 2 Name, e.g., Search for Trains]
+*(Same sub-headings as 3.1 for each feature)*
+
+4. External Interface Requirements
+4.1. User Interfaces: What the screens, pages, or menus will look like (can be a reference to mockups).
+4.2. Hardware Interfaces: How the software will connect to any physical devices.
+4.3. Software Interfaces: How the software will connect to other systems (e.g., payment gateway, database).
+
+5. Non-Functional Requirements
+5.1. Performance Requirements: How fast and responsive the system needs to be (e.g., "Page must load in under 2 seconds").
+5.2. Security Requirements: How user data and the system will be protected.
+5.3. Reliability: How often the system can fail (e.g., "Must be available 99.9% of the time").
