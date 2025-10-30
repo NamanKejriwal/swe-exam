@@ -1,0 +1,37 @@
+Maintenance Report Format for Railway Reservation System
+1. Header
+Report Title: Software Maintenance Report - Railway Reservation System
+Report ID: MNT-RRS-2024-001
+Date: [Date of Report]
+
+2. Executive Summary
+Meaning: Brief summary of the issue, the fix applied, and system status. (e.g., "Resolved payment gateway timeout issue. System is stable and all functions are operational.")
+  
+3. System & Incident Details
+System/Module Affected: e.g., Payment Gateway, Seat Allocation Engine, PNR Generation Service.
+Environment: Production / Staging / Development
+Maintenance Type: Corrective (Bug Fix) / Adaptive (OS Update) / Perfective (Performance Tuning) / Preventive (Security Patch)
+Priority/Severity: P1 (Critical) / P2 (High) / P3 (Medium)
+
+4. Maintenance Details
+Date/Time Start: [Start of maintenance window]
+Date/Time End: [End of maintenance window]
+Reported By/Performed By: [Name of QA/User & Name of DevOps Engineer]
+
+5. Work Performed
+Problem Description: Detailed description of the issue. (e.g., "Users receiving 'Payment Failed' due to 30-second timeout with XYZ Bank gateway.")
+Root Cause: The technical reason for the failure. (e.g., "API call timeout setting was too low for peak load.")
+Actions Taken: Step-by-step description of the fix. (e.g., "1. Increased gateway timeout from 30s to 60s. 2. Updated retry logic. 3. Deployed patch to production servers.")
+Code/Config Changes: List of files, scripts, or configuration settings modified. (e.g., "Updated payment_config.yml, deployed gateway-service v2.1.5")
+
+6. Verification & Testing
+Meaning: Steps taken to confirm the fix works. (e.g., "Executed 10 successful test transactions with XYZ Bank gateway. Monitored error logs for 1 hour post-deployment.")
+
+7. Recommendations
+Meaning: Suggestions to prevent future issues. (e.g., "Implement better alerting for gateway response times. Add circuit breaker pattern in code.")
+  
+8. Sign-off
+Technician/Engineer Signature: [Signature]
+System Owner/Manager Approval: [Signature]
+
+
